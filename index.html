@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ezitech Institute</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- Top Bar with Contact Info -->
+    <div class="top-bar">
+        <div class="container">
+            <p><i class="fas fa-phone"></i> +92 3455555396  |   <i class="fa-solid fa-location-dot"></i> Westridge 1, Office #304-G, Peshawar Road, Rawalpindi, Pakistan  | <i class="far fa-clock"></i> Mon - Fri 8:00 - 20:00</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="login-register">
+                <a href="#"><i class="fa-regular fa-user"></i>  Login</a>|<a href="#">Register</a>
+            </div>
+        </div>
+    </div>
+    <section class="main">
+                <nav>
+                   <a href="index.html"><img src="logo.png" alt="Ezitech Institute"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">COURSE</a></li>
+                        <li><a href="#">BLOGS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+        <div class="content">
+            <h1>Learn the fundamentals with our <br> Experts in <span class="highlight">Digital Technologies</span></h1>
+            <p>Utilize Effective Learning to Reach Your Potential!</p>
+            <form class="search-bar">
+                <input type="text" placeholder="Search courses...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+    </section>
+<!---- course ---->
+<section class="course">
+    <h1>Courses We offer</h1>
+    <div class="row1">
+        <div class="course-col">
+            <h3>Web Development and Web Design</h3>
+            <p>This course covers the fundamentals of creating and designing websites. Students learn HTML, CSS, JavaScript, and responsive design techniques to build modern, user-friendly websites. The focus is on practical skills and hands-on projects to ensure a deep understanding of the web development process.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Machine Learning & Data Science</h3>
+            <p>In this course, students explore the power of machine learning and data science through hands-on projects using tools like Scikit-learn, Pandas, and Matplotlib. They learn how to build, evaluate, and improve machine learning models while working with real-world datasets to gain valuable insights.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Graphics Design</h3>
+            <p>Students learn the principles of visual design using industry-standard software like Adobe Illustrator and Photoshop. This course emphasizes creativity, branding, and layout design, equipping students to create visually compelling digital content for various platforms.
+            </p>
+        </div>
+    </div>
+
+    <div class="row2">
+    <div class="course-col">
+        <h3>APP Development</h3>
+        <p>This course trains students in mobile and web app development, using frameworks such as React, Flutter, and Angular. From design to deployment, students acquire the skills to build cross-platform applications that provide dynamic user experiences.
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>Digital Marketing</h3>
+        <p>Focused on digital growth strategies, this course teaches SEO, social media marketing, content marketing, and online advertising. Students learn to boost online visibility, optimize websites for search engines, and create effective marketing campaigns to drive engagement.
+        </p>
+    </div>
+    <div class="course-col">
+        <h3>Content Management Systems and E-commerce </h3>
+        <p>This course provides training in managing platforms like WordPress and setting up e-commerce websites. Students learn to create and maintain online stores, manage product listings, and integrate payment gateways for seamless user experiences.
+        </p>
+    </div>
+    </div>
+</section>
+
+
+
+<!--------JavaScript for toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+<section class="investing">
+    <h1>It's time to <span>start</span> investing in <br> yourself</h1>
+    <img src="image.webp">
+</section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h4>ABOUT</h4>
+            <p>Edtech Institute provides a platform for freelancers to launch their IT and networking careers. Our emphasis on practical information technology courses that are career-driven and work-oriented makes us the top computer institute in Rawalpindi, Islamabad, Pakistan.</p>
+          </div>
+          <div class="footer-column">
+            <h4>POPULAR COURSES</h4>
+            <div class="course-item">
+            <img src="course1.webp" alt="Course Image">
+                    <p>  Online Arbitrage Mastermind 2.0 [R...] <br><span>By Husnain Ali</span></p>
+                    </div>
+                    <div class="course-item">
+                    <img src="course2.webp" alt="Course Image">
+                    <p>The Complete Bootcamp 2024: Node.j... <br><span>By Ezitech</span></p>
+                </div>
+                </div>
+                <div class="footer-column">
+                    <h4>PAGES</h4>
+                    <p><li><a href="#">BLOG</a></li>
+                    <li><a href="#">EDITING</a></li>
+                    <li><a href="#">INTERNSHIP</a></li>
+                    <li><a href="#">OUR SERVICES</a></li></p>
+                  </div>
+                  <div class="footer-column">
+                <h4>CONTACT</h4>
+                <p><i class="fas fa-phone"></i>  +92 3455555396 </p>
+                <p><i class="fa-solid fa-location-dot"></i>  Westridge 1, Office #304-G, Peshawar Road, Rawalpindi, Pakistan</p>
+                <p><i class="fa-solid fa-envelope"></i>  info@ezitech.org</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 Ezitech Institute | Design & Develop by <a href="#">Eziline Software House</a></p>
+        </div>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-behance"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        
+    </footer>
+</body>
+</html>
+
